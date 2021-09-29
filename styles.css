@@ -1,0 +1,117 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    body {
+        background: white;
+        height: 100vh;
+        font-size: 2rem;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .header{
+        display: flex;
+        flex-flow: row nowrap;
+        height: 60px;
+        justify-content:flex-end;
+    }
+    .header__nav{
+        width: 250px;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__nav a {
+        margin-right: 10px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .header__nav-img {
+        height: 4rem;
+        width: 4rem;
+        margin: 0.5rem;
+    }
+    .main {
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:center;
+        align-items: center;
+    }
+    .main__container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:center;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 5rem;
+    }
+    .main__placeholder {
+        background-image: url(./assets/buscar_icon.png);
+        background-repeat: no-repeat;
+        background-position: 1.5rem center;
+        padding-left: 5rem;
+        height: 5rem;
+        width: 80rem;
+        border: 0.5px grey solid;
+        border-radius: 25px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        font-size: 2rem;
+    }
+    
+    .main__placeholder:focus {
+        outline: none;
+    }
+    .buttons {
+        margin-top: 2rem;
+    }
+    .button {
+        height: 3rem;
+        width: 20rem;
+        background-color: lightgrey;
+        border: none;
+        font-size: 1.8rem;
+        border-radius: 5px;
+    }
+    .footer {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 3em;
+        margin-top: auto;
+        justify-content: space-between;
+    }
+    .footer__nav-1{
+        display: flex;
+        flex-flow: row wrap;
+        width: auto;
+        
+    }
+    .footer__nav-2{
+        display: flex;
+        flex-flow: row nowrap;
+        width: auto;
+    }
+    .nav__menu{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .nav__menu-item {
+        /* margin-right: 1rem; */
+        padding: 1rem;
+        list-style: none;
+    }
